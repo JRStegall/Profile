@@ -1,0 +1,71 @@
+body {
+    background-image: url(/images/image2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.jumbotron{
+    max-width: 100%;
+    background-color: rgba(22, 19, 19, 0.85);
+    text-shadow: .5px .5px aliceblue;
+    text-align: center;
+}
+
+.navbar{
+    font-family:  fantasy;
+}
+
+h4, h5 {
+    color: rgb(109, 106, 106);
+}
+
+.container-flex {
+    width: 100%;
+    background-color: gainsboro;
+    text-shadow: .5px .5px aliceblue;
+}
+
+.skills {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 0;
+    max-width: 95%;
+    margin: auto;
+   
+}
+
+.seeit{
+   /* border: 5px white inset;*/
+    padding: 2%;
+    clear: left;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+  }
+
+.img-circle{
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.footer{
+    background-color: rgb(105, 98, 98);
+}
+
+p {
+    text-indent: 2em;
+    color: white;
+    text-shadow: .75px .75px  rgb(48, 46, 46);
+}
+
+a {
+    text-shadow: .15px .5px rgb(27, 28, 29);
+    padding: 0 15px 0 0;
+}
